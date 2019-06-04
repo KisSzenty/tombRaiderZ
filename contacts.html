@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+          content="ie=edge">
+    <title>contacts</title>
+    <link rel="stylesheet"
+          href="/css/nav.css">
+</head>
+
+<body class="contactsBackground">
+
+    <nav>
+        <ul>
+            <li><a href="/index.html">Főoldal</a></li>
+            <li><a href="/about-us.html">Rólunk</a></li>
+            <li><a href="/studies.html">Okosságok</a></li>
+            <li><a href="/contacts.html">Kapcsolat</a></li>
+            <li><a href="/tasks.html">Feladat</a></li>
+        </ul>
+    </nav>
+
+    <!-- kattintható kép -->
+    <a href="https://karrierstart.training360.com/junior-fejleszto-kepzes/"><img src="img/training360.png"
+             alt="training360"
+             target="top"
+             height="100"
+             width="120">
+    </a>
+
+    <!-- onsubmit: reseteli a formot küldés után -->
+    <form action="mailto:raiderztomb@gmail.com?Subject=Hello!"
+          onsubmit="this.submit(); this.reset();"
+          method="POST">
+
+        <h3>Küldj nekünk üzenetet!</h3>
+        <br>
+
+        <!-- táblázat - az egyes beviteli mezők külön sorokban -->
+        <table>
+
+            <tr>
+                <td>
+                    <label for="lastname"
+                           required><strong>Vezetékneved</strong></label>
+                    <br>
+                    <br>
+                </td>
+                <td>
+                    <input type="text"
+                           name="lastname"
+                           id="lastname">
+                    <br>
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="firstname"
+                           required><strong>Keresztneved</strong></label>
+                    <br>
+                    <br>
+                </td>
+                <td>
+                    <input type="text"
+                           name="firstname"
+                           id="firstname">
+                    <br>
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email"
+                           required><strong>E-mail címed</strong></label>
+                    <br>
+                    <br>
+                </td>
+                <td>
+                    <input type="email"
+                           name="email"
+                           id="email">
+                    <br>
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="subject"><strong>Téma</strong></label>
+                    <br>
+                    <br>
+                </td>
+                <td><input type="subject"
+                           name="subject"
+                           id="subject">
+                    <br>
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="message"
+                           required
+                           target="top"><strong>Üzeneted</strong></label>
+                    <br>
+                    <br>
+                </td>
+                <td>
+                    <textarea name="message"
+                              id="message"
+                              cols="50"
+                              rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="space"><strong>&nbsp;</strong></label>
+                    <br>
+                    <br>
+                </td>
+                <td>
+                    <input type="submit"
+                           value="Küldés">
+                    <br>
+                    <br>
+                </td>
+            </tr>
+        </table>
+
+        <br>
+        <br>
+        <h3>Training360 Oktatóközpont</h3>
+
+        <address>
+
+            1117 Budapest, Budafoki út 56.
+
+            <p>&#x260e; <a href="tel:+3618800040">(+36 1) 880-0040</a></p>
+
+            <p>&#x2709; <a href="mailto:info@training360.com">E-mail: info@training360.com</a></p>
+
+        </address>
+
+
+        <br>
+
+        <!-- cím googlemaps-en embeddelve -->
+
+        <div class="mapouter">
+
+            <div class="gmap_canvas"><iframe width="600"
+                        height="500"
+                        id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=1117%20Budapest%2C%20Budafoki%20%C3%BAt%2056.&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0"
+                        scrolling="no"
+                        marginheight="0"
+                        marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div>
+            <style>
+                .mapouter {
+                    position: relative;
+                    text-align: right;
+                    height: 500px;
+                    width: 600px;
+                }
+
+                .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 500px;
+                    width: 600px;
+                }
+            </style>
+
+        </div>
+
+        <div class="footer">
+            <table class="table"
+                   style="width: 75%">
+                <thead>
+                    <tr>
+                        <th>
+                            <p class="p-footer">Főoldal</p>
+                        </th>
+                        <th>
+                            <p class="p-footer">Rólunk</p>
+                        </th>
+                        <th>
+                            <p class="p-footer">Okosságok</p>
+                        </th>
+                        <th>
+                            <p class="p-footer">Kapcsolat</p>
+                        </th>
+                        <th>
+                            <p class="p-footer">Feladatok</p>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="/index.html">
+                                <img class="image-footer"
+                                     src="/img/img-index-meggyozodes.jpg"
+                                     alt="Meggyőződés"
+                                     title="Meggyőződés">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="/about-us.html">
+                                <img class="image-footer"
+                                     src="/img/img-aboutus-neotonfamilia.jpg"
+                                     alt="Neoton Família"
+                                     title="Neoton Família">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="/studies.html">
+                                <img class="image-footer"
+                                     src="/img/img-studies-halofulke.jpg"
+                                     alt="Hálófülke"
+                                     title="Hálófülke">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="/contacts.html">
+                                <img class="image-footer"
+                                     src="/img/img-contacts-retegesoltozet.jpg"
+                                     alt="Réteges öltözet"
+                                     title="Réteges öltözet">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="/tasks.html">
+                                <img class="image-footer"
+                                     src="/img/img-tasks-teleurespules.jpg"
+                                     alt="Ez elég egyértelmű"
+                                     title="Ez elég egyértelmű">
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </form>
+
+</body>
+
+</html>

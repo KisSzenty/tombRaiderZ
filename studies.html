@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+          content="ie=edge">
+    <title>Okosságok</title>
+    <link rel="stylesheet"
+          href="/css/nav.css">
+</head>
+
+<body class="contactsBackground">
+    <nav>
+        <ul>
+            <li><a href="/index.html">Főoldal</a></li>
+            <li><a href="/about-us.html">Rólunk</a></li>
+            <li><a href="/studies.html">Okosságok</a></li>
+            <li><a href="/contacts.html">Kapcsolat</a></li>
+            <li><a href="/tasks.html">Feladatok</a></li>
+        </ul>
+    </nav>
+    <h2>Itt találod a számunkra leghasznosabb dolgokat összegyűjtve:</h2>
+    <h3>Ha még nincs HTML editorod, akkor itt megtalálod a neked szükségeset:</h3>
+    <div>
+        <table>
+            <tr>
+                <td>
+                    <a href="https://code.visualstudio.com/download"
+                       label="Visual Studio Code">
+
+                        <img src="/img/VSC001.png">
+                    </a>
+                </td>
+                <td>
+                    <a href="https://code.visualstudio.com/download"
+                       label="VSC">Visual Studio Code</a>
+                </td>
+            </tr>
+            <p></p>
+            <tr>
+                <td>
+                    <h5>A Visual Studio Code számunkra leghasznosabb extension-jei pedig itt vannak bővíthető formában: </h5>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="addons">
+                        <p>Auto Close Tag</p>
+                        <p>Auto Renam Tag</p>
+                        <p>Live Server</p>
+                        <p>htmltagwrap</p>
+                        <p>Debugger for Chrome</p>
+                    </div>
+                    <input type="text"
+                           maxlength="40"
+                           id="addonName">
+                    <button onclick="addElement()"
+                            title="Fontos, hogy a VSC keresője case sensitive, így ennek megfelelően add meg">Hozzáad</button>
+                    <button onclick="deleteLast()">Töröl</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <h3>Ha elakadsz a házival és gyorsan kell a táblázatot összerittyenteni:</h3>
+                <div>
+                    <td>
+                        <a href="https://www.tablesgenerator.com/html_tables"
+                           label="tablesgenerator">
+                            <img src="/img/tables002.png"
+                                 class="img-circle">
+                        </a>
+                    </td>
+                </div>
+                <div>
+                    <td>
+                        <a href="https://www.tablesgenerator.com/html_tables"
+                           label="tablesgenerator">HTML -Tablegenerator</a>
+                    </td>
+                </div>
+            </tr>
+        </table>
+    </div>
+    <h3>Ha már van fogalmad, hogy mit, de nem tudod a hogyan:</h3>
+    <div>
+        <table>
+            <tr>
+                <div>
+                    <td>
+                        <a href="https://stackoverflow.com/"
+                           label="stackoverflow">
+                            <img src="/img/stackowerflow002.png"
+                                 class="rounded">
+                        </a>
+                    </td>
+                </div>
+                <div>
+                    <td>
+                        <a href="https://stackoverflow.com/"
+                           label="stackoverflow">stackoverflow</a>
+                    </td>
+                </div>
+            </tr>
+        </table>
+    </div>
+    <h3>Ha még fogalmad sincs:</h3>
+    <div>
+        <table>
+            <tr>
+                <div>
+                    <td>
+                        <a href="https://www.w3schools.com/"
+                           label="w3schools">
+
+                            <img src="/img/w3schools002.png">
+                        </a>
+                    </td>
+                </div>
+                <div>
+                    <td>
+                        <a href="
+                                 https://www.w3schools.com/"
+                           label="w3schools">w3schools</a>
+                    </td>
+                </div>
+            </tr>
+        </table>
+    </div>
+    <!--    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          rel="stylesheet"
+          type="text/css">
+          -->
+    <p> </p>
+    <div class="footer">
+        <table class="table"
+               style="width: 75%">
+            <thead>
+                <tr>
+                    <th>
+                        <p class="p-footer">Főoldal</p>
+                    </th>
+                    <th>
+                        <p class="p-footer">Rólunk</p>
+                    </th>
+                    <th>
+                        <p class="p-footer">Okosságok</p>
+                    </th>
+                    <th>
+                        <p class="p-footer">Kapcsolat</p>
+                    </th>
+                    <th>
+                        <p class="p-footer">Feladatok</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <a href="/index.html">
+                            <img class="image-footer"
+                                 src="/img/img-index-meggyozodes.jpg"
+                                 alt="Meggyőződés"
+                                 title="Meggyőződés">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="/about-us.html">
+                            <img class="image-footer"
+                                 src="/img/img-aboutus-neotonfamilia.jpg"
+                                 alt="Neoton Família"
+                                 title="Neoton Família">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="/studies.html">
+                            <img class="image-footer"
+                                 src="/img/img-studies-halofulke.jpg"
+                                 alt="Hálófülke"
+                                 title="Hálófülke">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="/contacts.html">
+                            <img class="image-footer"
+                                 src="/img/img-contacts-retegesoltozet.jpg"
+                                 alt="Réteges öltözet"
+                                 title="Réteges öltözet">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="/tasks.html">
+                            <img class="image-footer"
+                                 src="/img/img-tasks-teleurespules.jpg"
+                                 alt="Ez elég egyértelmű"
+                                 title="Ez elég egyértelmű">
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

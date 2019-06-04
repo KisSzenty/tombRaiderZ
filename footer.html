@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+          content="ie=edge">
+    <title>Document</title>
+    <!--img: a képek mérete, helye
+        img:hover - halvány keret a képek körül, ha ráhoverelsz (thumbnail)
+        .footer - a footer röghöz kötése és formázása
+        p - a footerben lévő paragraphok betűtípusa, formája-->
+    <style>
+        .image-footer {
+            display: block;
+            border-radius: 8px;
+            width: 300px;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        img:hover {
+            box-shadow: 0 0 10px 5px rgba(0, 140, 186, 0.5);
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 300px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+
+        .p-footer {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+
+<body>
+    <footer>
+        <div class="footer">
+            <table class="table"
+                   style="width: 75%">
+                <thead>
+                    <tr>
+                        <th>
+                            <p class="p-footer">Főoldal</p>
+                        </th>
+                        <th>
+                            <p class="p-footer">Rólunk</p>
+                        </th>
+                        <th>
+                            <p class="p-footer">Okosságok</p>
+                        </th>
+                        <th>
+                            <p class="p-footer">Kapcsolat</p>
+                        </th>
+                        <th>
+                            <p class="p-footer">Feladatok</p>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="/index.html">
+                                <img class="image-footer"
+                                     src="/img/img-index-meggyozodes.jpg"
+                                     alt="Meggyőződés"
+                                     title="Meggyőződés">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="/about-us.html">
+                                <img class="image-footer"
+                                     src="/img/img-aboutus-neotonfamilia.jpg"
+                                     alt="Neoton Família"
+                                     title="Neoton Família">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="/studies.html">
+                                <img class="image-footer"
+                                     src="/img/img-studies-halofulke.jpg"
+                                     alt="Hálófülke"
+                                     title="Hálófülke">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="/contacts.html">
+                                <img class="image-footer"
+                                     src="/img/img-contacts-retegesoltozet.jpg"
+                                     alt="Réteges öltözet"
+                                     title="Réteges öltözet">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="/tasks.html">
+                                <img class="image-footer"
+                                     src="/img/img-tasks-teleurespules.jpg"
+                                     alt="Ez elég egyértelmű"
+                                     title="Ez elég egyértelmű">
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </footer>
+</body>
+
+</html>
